@@ -1,8 +1,7 @@
 call plug#begin()
      Plug 'scrooloose/nerdtree'
 	 Plug 'ellisonleao/glow.nvim'
-     Plug 'nvim-lua/plenary.nvim'
-     Plug 'TimUntersberger/neogit'
+	 Plug 'tpop/vim-fugitive'
 call plug#end()
 
 set shiftwidth=4
@@ -14,6 +13,4 @@ set clipboard=unnamedplus
 
 lua << EOF
 require('glow').setup()
-local neogit = require('neogit')
-neogit.setup {}
 EOF
