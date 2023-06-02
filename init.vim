@@ -1,7 +1,7 @@
 call plug#begin()
      Plug 'scrooloose/nerdtree'
 	 Plug 'ellisonleao/glow.nvim'
-	 Plug 'tpop/vim-fugitive'
+	 Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set shiftwidth=4
